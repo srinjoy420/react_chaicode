@@ -3,8 +3,9 @@ import Chai from './Chai'
 
 
 const App = () => {
+  const username="hello"
   return (
-    <div><Chai/></div>
+    <div><Chai/> {username}</div>
   )
 }
 
