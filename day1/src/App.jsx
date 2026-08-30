@@ -10,7 +10,8 @@ const App = () => {
       setcounter(20)
     }
     else{
-      setcounter(counter+1)
+      // setcounter(counter+1)
+      setcounter((prev)=>prev+1)
     }
   }
   const removevalue=()=>{
